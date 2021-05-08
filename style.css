@@ -1,0 +1,261 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+.addCard img{
+    width: 25px;
+    height: 25px;
+   
+}
+
+.visa img{
+    width: 80px;
+    height: 80px;
+}
+
+.transfersTab img{
+    height: 25px;
+    width: 25px;
+}
+
+.lindsley img{
+    height: 25px;
+    width: 25px;
+}
+
+
+body{
+    max-width: 600px;
+   
+    margin: auto;
+    border-radius: 20px;
+    padding: 2rem;
+    background: linear-gradient(to bottom, #F8F8F8 35%, #FFFFFF 50%);
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.name{
+    font-weight: bold;
+    font-size: larger;
+}
+
+.addCard{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #f5cf84;
+}
+
+.addCard img{
+    margin-right:5px ;
+   
+    filter: invert(82%) sepia(31%) saturate(552%) hue-rotate(350deg) brightness(101%) contrast(92%);
+}
+
+.card{
+    max-width: 500px;
+    margin: 10px;
+    height: 30vh;
+    background-color: #02211C;
+    color: white;
+    position: relative;
+    border-radius: 5%;
+}
+
+.year{
+    position: absolute;
+    top: 10%;
+    right: 5%;
+}
+
+.number{
+    position: absolute;
+    top: 25%;
+    right: 5%
+}
+
+.balanceTab{
+    position: absolute;
+    bottom: 10%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+
+.balance{
+    display: inline-block;
+    width: 400px;
+    padding: 10px;
+}
+
+
+.transfersTab{
+    display: flex;
+   
+    justify-content: space-around;
+    align-items: center;
+}
+
+.transfersTab > div{
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+    padding: 20px;
+    background-color: #FFFFFF;
+    border-radius: 10% ;
+}
+
+.savings{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.titleOne{
+    font-size: xx-large;
+}
+
+.see{
+    color: #f5cf84;
+}
+
+.dreamTab{
+    display: flex;
+    justify-content: space-around;
+}
+
+.dreamTab img{
+    height: 35px;
+    width: 35px;
+    margin: 10px;
+   padding: 5px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+.dreamTab > div{
+    background-color: #F8F8F8 ;
+    padding: 1%;
+    border-radius: 10px;
+    width: 40%;
+    margin: 10px;
+}
+
+.dreamOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.dreamTwo{
+    display: flex;
+    flex-direction: column;
+}
+
+input[type="range"]{
+    overflow: hidden;
+    
+    -webkit-appearance: none;
+    background-color: #9a905d;
+    width: 100%;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+    height: 10px;
+    -webkit-appearance: none;
+    color: #f5cf84;
+    margin-top: -1px;
+  }
+  
+  input[type='range']::-webkit-slider-thumb {
+    width: 10px;
+    -webkit-appearance: none;
+    height: 10px;
+    cursor: ew-resize;
+    background: #EBEBEB;
+    box-shadow: -80px 0 0 80px #f5cf84;
+  }
+
+  .recent{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      
+  }
+
+  .to{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+  }
+
+  .toLindsley{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .two{
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      width: 40%;
+    
+  }
+
+  .bold{
+      font-weight: 600;
+      font-size:large;
+  }
+
+  .lindsley  img {
+      border: 2px solid grey;
+      margin: 10px;
+      padding: 5px;
+      height: 35px;
+      width: 35px;
+      border-radius: 10px;
+  }
+
+  .footer img{
+      height: 25px;
+      width: 25px;
+  }
+
+  .footer{
+      display: flex;
+      justify-content: space-between;
+      margin: 15px;
+      margin-top: 35px;
+     
+  }
+
+  .commonClass{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin: 10px;
+      padding: 10px 30px;
+  }
+
+  .home{
+      background-color: #138F7D;
+      border-radius: 10px ;
+  }
