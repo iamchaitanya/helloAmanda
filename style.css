@@ -29,7 +29,7 @@
 
 
 body{
-    max-width: 600px;
+    /* max-width: 600px; */
    
     margin: auto;
     border-radius: 20px;
@@ -63,7 +63,7 @@ body{
 }
 
 .card{
-    max-width: 500px;
+    /* max-width: 500px; */
     margin: 10px;
     height: 30vh;
     background-color: #02211C;
